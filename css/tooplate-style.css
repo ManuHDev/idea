@@ -126,19 +126,19 @@ p {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
 }
 .navbar-brand .logo{
-	margin-top: 22px;
+	margin-top: 5px;
 	background-image: url(../img/white_logo.png);
 	display: inline-block;
 	width: 160px;
-	height: 60px;
+	height: 70px;
 	background-repeat: no-repeat;
 }
 .header.active .navbar-brand .logo{
-	margin-top: 12px;
+	margin-top: 5px;
 	background-image: url(../img/black_logo.png);
 	display: inline-block;
 	width: 160px;
-	height: 60px;
+	height: 70px;
 	background-repeat: no-repeat;
 }
 #main-nav {
@@ -207,8 +207,14 @@ p {
 }
 
 ul.list-pieza {
-	list-style-image: url('../img/pieza.png');
-	margin-left: 40px;
+	list-style-image: url('../img/favicon.png');
+	margin-left: 26px;
+}
+
+ol.decimal {
+	list-style-image: none;
+	list-style-type: decimal;
+	margin-left: 6px;
 }
 
 /* HERO SLIDER */
@@ -236,6 +242,10 @@ ul.list-pieza {
 
 ul.cd-hero-slider {
 	margin-bottom: 0px!important;
+}
+
+.mousePointer {
+	cursor: pointer;
 }
 
 /* WHAT WE DO */
